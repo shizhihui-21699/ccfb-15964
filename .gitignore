@@ -16,3 +16,14 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# C build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+build/
+build-cmake/
+cmake-build-*/
+examples/bgp_ao_rollover
