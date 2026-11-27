@@ -1,0 +1,180 @@
+{
+  "cases": [
+    {
+      "name": "kdf-hmac-sha1-m16",
+      "alg": "hmac-sha1",
+      "master_hex": "000102030405060708090a0b0c0d0e0f",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 20,
+      "traffic_key_send_hex": "cfb9af3bcba4b64ad474f40a3908a457bcd13fe2",
+      "traffic_key_recv_hex": "d702d2633bb69ea396de3966a6d212934d4f3912",
+      "traffic_key_syn_hex": "5f1e6ea08742bc8be803651db590e38e4357953a"
+    },
+    {
+      "name": "kdf-hmac-sha1-m20",
+      "alg": "hmac-sha1",
+      "master_hex": "524643353932352d746573742d6d61737465722d",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 20,
+      "traffic_key_send_hex": "bc5e10cd081107113056270b73556dc73bde5caa",
+      "traffic_key_recv_hex": "edc0240cb49363677f09e66144910ce344910d9c",
+      "traffic_key_syn_hex": "f51c7ac1774eb72d6f00e48143424f0a9bb48cb0"
+    },
+    {
+      "name": "kdf-hmac-sha1-mvar",
+      "alg": "hmac-sha1",
+      "master_hex": "726567696f6e616c2d636172726965722d6267702d736563726574",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 20,
+      "traffic_key_send_hex": "14ee6019e82e2c8d1f2c051c6ac837df0fdbbac2",
+      "traffic_key_recv_hex": "dc44c4f71cec40aa0e4cc8fffcd54d1aef60d86d",
+      "traffic_key_syn_hex": "8b3215f92a0056e5ddf144aa68d2d1d4b0772df9"
+    },
+    {
+      "name": "kdf-aes128-cmac-m16",
+      "alg": "aes128-cmac",
+      "master_hex": "000102030405060708090a0b0c0d0e0f",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 16,
+      "traffic_key_send_hex": "afdf0172fcb10d6cf5941217b6e0e6ac",
+      "traffic_key_recv_hex": "6df33fd2f58fe817315af6af245856f0",
+      "traffic_key_syn_hex": "e3d7221e910f923b3f80a2fd4ba0e298"
+    },
+    {
+      "name": "kdf-aes128-cmac-m20",
+      "alg": "aes128-cmac",
+      "master_hex": "524643353932352d746573742d6d61737465722d",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 16,
+      "traffic_key_send_hex": "777300a1a16881c1e71aeb31da61527f",
+      "traffic_key_recv_hex": "ec12ebde1eb063e521e3581432cbda3f",
+      "traffic_key_syn_hex": "886fa77fc01d48f2765f6f6706209582"
+    },
+    {
+      "name": "kdf-aes128-cmac-mvar",
+      "alg": "aes128-cmac",
+      "master_hex": "726567696f6e616c2d636172726965722d6267702d736563726574",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 16,
+      "traffic_key_send_hex": "cf6b285ec42c32cfc9e0cf37172dd1ed",
+      "traffic_key_recv_hex": "ecf2fe254b17e6a1943e4621fc211581",
+      "traffic_key_syn_hex": "392c5229ca374fbb64b721b5262bcd73"
+    },
+    {
+      "name": "kdf-hmac-sha256-m16",
+      "alg": "hmac-sha256",
+      "master_hex": "000102030405060708090a0b0c0d0e0f",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 32,
+      "traffic_key_send_hex": "5f44dd8cd49760857b07bbe93079e70b352c0b913daf586f8f91e6129a1fdb9c",
+      "traffic_key_recv_hex": "0c2e1f796d525731812fe319fe53ae6efde18ccad0fd05d533a45bee6fad726e",
+      "traffic_key_syn_hex": "8ee23d92537b8932c43529e4bc357efb69fc59c0d3c94bb7494c5657f991fa17"
+    },
+    {
+      "name": "kdf-hmac-sha256-m20",
+      "alg": "hmac-sha256",
+      "master_hex": "524643353932352d746573742d6d61737465722d",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 32,
+      "traffic_key_send_hex": "2654e817f13d0cb383dd3342b0a2f9b27c08d869a84715504ec17a9ac903568a",
+      "traffic_key_recv_hex": "71dc5e6a651a88b8caa19438d85fdd7aeb6fd88085221af577982ed42cdfc168",
+      "traffic_key_syn_hex": "11b48b362f8971e37c340603af446265ef2a2ff9a2813d15f36b6a6c480fa07c"
+    },
+    {
+      "name": "kdf-hmac-sha256-mvar",
+      "alg": "hmac-sha256",
+      "master_hex": "726567696f6e616c2d636172726965722d6267702d736563726574",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "outlen": 32,
+      "traffic_key_send_hex": "5facdb5cfad467d1a9124f2554302f46654329345fd408841b654ec312a5c11e",
+      "traffic_key_recv_hex": "d25168ee3f733cb42834a7ef2ce0bdff58dc474982a9a04beb773bcf80966d26",
+      "traffic_key_syn_hex": "be7a15813e8f2210d889d1486eeaf6f11af044dafe5a12db8bd7c5d238d618d7"
+    },
+    {
+      "name": "mac-hmac-sha1",
+      "alg": "hmac-sha1",
+      "master_hex": "000102030405060708090a0b0c0d0e0f",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "traffic_key_send_hex": "cfb9af3bcba4b64ad474f40a3908a457bcd13fe2",
+      "sne": 2,
+      "pseudo_hex": "c0000201c63364020006002c",
+      "segment_zeroed_hex": "a11200b399aabbcc0102030490002000000000001d1007090000000000000000000000004247505550444154",
+      "expected_mac_hex": "b75988093cc3466a0c150885",
+      "maclen": 12
+    },
+    {
+      "name": "mac-aes128-cmac",
+      "alg": "aes128-cmac",
+      "master_hex": "726567696f6e616c2d636172726965722d6267702d736563726574",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "traffic_key_send_hex": "cf6b285ec42c32cfc9e0cf37172dd1ed",
+      "sne": 2,
+      "pseudo_hex": "c0000201c63364020006002c",
+      "segment_zeroed_hex": "a11200b399aabbcc0102030490002000000000001d1007090000000000000000000000004247505550444154",
+      "expected_mac_hex": "bb41d6f53d45b8bb603c9bd2",
+      "maclen": 12
+    },
+    {
+      "name": "mac-hmac-sha256",
+      "alg": "hmac-sha256",
+      "master_hex": "524643353932352d746573742d6d61737465722d",
+      "context_hex": "c0000201c633640200b3a1121122334455667788",
+      "traffic_key_send_hex": "2654e817f13d0cb383dd3342b0a2f9b27c08d869a84715504ec17a9ac903568a",
+      "sne": 2,
+      "pseudo_hex": "c0000201c63364020006002c",
+      "segment_zeroed_hex": "a11200b399aabbcc0102030490002000000000001d1007090000000000000000000000004247505550444154",
+      "expected_mac_hex": "3121d43b72b4d879a08a0f14",
+      "maclen": 12
+    }
+  ],
+  "sne_sequence": [
+    {
+      "seq": 100,
+      "sne": 0
+    },
+    {
+      "seq": 28672,
+      "sne": 0
+    },
+    {
+      "seq": 32767,
+      "sne": 0
+    },
+    {
+      "seq": 32768,
+      "sne": 0
+    },
+    {
+      "seq": 32769,
+      "sne": 0
+    },
+    {
+      "seq": 4294967280,
+      "sne": 0
+    },
+    {
+      "seq": 5,
+      "sne": 1
+    },
+    {
+      "seq": 6,
+      "sne": 1
+    },
+    {
+      "seq": 32766,
+      "sne": 1
+    },
+    {
+      "seq": 32767,
+      "sne": 1
+    },
+    {
+      "seq": 32768,
+      "sne": 0
+    },
+    {
+      "seq": 32769,
+      "sne": 0
+    }
+  ]
+}
